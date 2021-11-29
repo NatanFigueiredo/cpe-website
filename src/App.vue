@@ -4,18 +4,22 @@
 		<Header/>
     <router-view/>
 
-		<footer>
-			
-		</footer>
+		<Footer/>
+    <VLibras/>
+
   </div>
 </template>
 
 <script>
 import Header from './components/Header.vue'
+import Footer from './components/Footer.vue'
+import { VLibras } from '@vue-a11y/vlibras'
 
 export default {
 	components: {
-		'Header': Header
+		Header,
+    Footer,
+    VLibras
 	}
 }
 
@@ -28,18 +32,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-}
-
-.cpe-azul {
-	background-color: #12385B;
-}
-
-.navbar-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-.navbar-nav a.router-link-exact-active {
-  color: #42b983;
 }
 </style>
