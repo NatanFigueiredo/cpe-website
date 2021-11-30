@@ -10,9 +10,9 @@
 
             <p class="h1 d-inline-flex title">Processo Seletivo de Estudantes</p>
 
-			<div class="d-flex flex-column align-items-center d-sm-flex flex-sm-row justify-content-sm-center m-2">
+			<div id="psInfo" class="d-flex flex-column align-items-center d-sm-flex flex-sm-row justify-content-sm-center m-2">
 				<img src="@/assets/Icons/selection.png" alt="Icone de uma pessoa sendo escolhida dentre três no total" class="img-fluid icon lg-icon">
-				<div class="w-50 w-sm-100 m-0">
+				<div class="w-100 m-0">
 					<p class="mt-4">Para ser estudante do Cursinho, é necessario se inscrever e ser aprovado em nosso processo seletivo </p>
 					<p class="d-flex flex-column align-items-center">
 						Não se preocupe, ele é bem simples e tem como objetivo priorizar, mas não exclusivamente, determinadas pessoas para que estas tenham acesso a educação de qualidade <br>
@@ -58,11 +58,11 @@
 
 			<div class="divider-azul w-75 mx-auto"/>
 
-			<div class="d-flex align-items-center flex-column m-4">
+			<div class="d-flex align-items-center flex-column m-4 container-fluid">
 				<p class="h2 subtitle">Procesos seletivos anteriores</p>
 				<p class="mt-2">Veja aqui os editais de processos seletivos anteriores</p>
-				<div id="processosanteriores" class="d-flex flex-column d-sm-flex flex-sm-row justify-content-center">
-					<div class="m-2">
+				<div id="processosanteriores" class="w-100 d-flex flex-column d-sm-flex flex-sm-row justify-content-center">
+					<div class="m-2 box">
 						<p class="mt-4 h5">Turma Extensiva</p>
 						<div class="d-flex flex-column">
 							<a class="m-2" href="http://bit.ly/ManualProcessoSeletivo20212 ">
@@ -73,7 +73,7 @@
 							</a>
 						</div>
 					</div>
-					<div class="m-2">
+					<div class="m-2 box">
 						<p class="mt-4 h5">Turma de Revisão</p>
 						<div class="d-flex flex-column">
 							<a class="m-2" href="http://bit.ly/ManualProcessoSeletivo20212">
@@ -103,10 +103,19 @@ export default {
 
 <style>
 
+/* #processosanteriores > div {
+	border: 1px solid red;
+	width: 100%;
+} */
+
 @media (min-width: 576px) { 
 	.lg-icon {
 		margin: 50px;
 		min-width: 250px;
+	}
+
+	#psInfo > div {
+		max-width: 50%;
 	}
 }
 
@@ -114,7 +123,9 @@ export default {
 	background-color: #EF7A20;
 	color: white;
 	border: 1px solid #12385B;
-	width: 100%;
+	width: 50%;
 }
+
+
 
 </style>
