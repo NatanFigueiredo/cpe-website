@@ -28,8 +28,12 @@
 				</div>
 			</div>
 
-			<div class="alert alert-danger" role="alert">
-				No momento não possuimos nenhum PS em andamento <br>
+			<div v-if="ps" class="alert alert-success" role="alert">
+				Nosso processo seletivo para estudantes está aberto <br>
+				Veja mais detalhes na seção abaixo
+			</div>
+			<div v-else class="alert alert-danger" role="alert">
+				No momento não possuímos nenhum PS em andamento <br>
 				Siga nossas redes sociais para saber quando um novo processo seletivo de estudantes ocorrer
 			</div>
             
@@ -94,6 +98,11 @@
 import Banner from '../components/Banner.vue'
 
 export default {
+	data() {
+		return {
+			ps: false,
+		}
+	},
 	components: {
 		Banner
 	}
