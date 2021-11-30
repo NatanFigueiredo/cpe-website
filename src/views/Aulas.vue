@@ -10,7 +10,7 @@
             <p class="h1 d-inline-flex title">Turmas do CPE</p>
 
             <p>
-                Nossas aulas ocorrem em turmas extensivas, ao longo do ano, e de revisão, proximas aos vetibulares de fim de ano <br>
+                Nossas aulas ocorrem em turmas extensivas, ao longo do ano, e de revisão, próximas aos vestibulares de fim de ano  <br>
                 Veja abaixo mais informações sobre cada uma
             </p>
 
@@ -18,20 +18,20 @@
                 <p class="h2 subtitle">Turmas extensivas</p>
                 <p>
                     Nossas turmas extensivas se iniciam em março e em julho através de processo seletivo <br>
-                    Ao longo do ano, cada estudantes terá acesso de qualidade a todo o conteúdo de vestibulares junto de professores e plantonistas
+                    Ao longo do ano, cada estudante terá acesso de qualidade a todo o conteúdo de vestibulares junto de professores e plantonistas
                 </p>
 
                 <div class="d-flex flex-column d-sm-flex flex-sm-row justify-content-center">
                     <div class="m-2 box">
                         <img src="@/assets/Icons/sun.png" alt="Periodo vespertino" class="img-fluid icon">
-                        <p class="mt-4 h5">Vespertina</p>
-                        <p>Essa turma ocorre ao longo do periodo da tarde das 14:00 às 18:40</p>
+                        <p class="mt-4 h5">Vespertino</p>
+                        <p>Essa turma ocorre ao longo do período da tarde das 14:00 às 18:40</p>
                     </div>
                     <div class="m-2 box">
                         <img src="@/assets/Icons/moon.png" alt="Periodo Noturno" class="img-fluid icon">
                         <p class="mt-4 h5">Noturna</p>
                         <p>
-                            Essa turma ocorre no periodo noturno, ideal para estudantes que trabalhem ou tenham atividades durante o dia <br> <br>
+                            Essa turma ocorre no período noturno, ideal para estudantes que trabalhem ou tenham outras atividades durante o dia <br> <br>
                             As aulas ocorrem das 19:00 às 22:30
                         </p>
                     </div>
@@ -58,13 +58,33 @@
 
         <div class="divider-azul w-75 mx-auto"> </div>
 
-        <div class="mt-4 container section">
+        <div class="mt-4 d-flex flex-column container-fluid">
             <p class="h1 title">Materiais e Recursos</p>
 
             <p>
-                Nossas aulas ocorrem em turmas extensivas, ao longo do ano, e de revisão, proximas aos vetibulares de fim de ano <br>
-                Veja abaixo mais informações sobre cada uma
+                Após a uma parceria com a Somos Educação em 2020, toda pessoa estudante do CPE tem acesso a materiais físicos e digitais consumíveis do Sistema Anglo de forma gratuita.
+                <br>
+                Estudantes do CPE também tem a disposição varias plataformas e ferramentas digitais, além de toda a estrutura da EACH-USP para estudos.
             </p>
+
+            <div class="d-sm-flex flex-sm-row justify-content-center">
+                <div class="m-2 box">
+                    <img src="@/assets/Icons/sun.png" alt="Imagem logo da plaforma Moodle" class="img-fluid icon">
+                    <p class="mt-4 h5">Moodle</p>
+                    <p>Um ambiente virtual de aprendizagem - AVA - com website e aplicativo de celular.</p>
+                </div>
+                <div class="m-2 box">
+                    <img src="@/assets/Icons/sun.png" alt="Imagem logo da plaforma Moodle" class="img-fluid icon">
+                    <p class="mt-4 h5">QMágico</p>
+                    <p>Um ambiente virtual de aprendizagem - AVA - com website e aplicativo celular</p>
+                </div>
+                <div class="m-2 box">
+                    <img src="@/assets/Icons/sun.png" alt="Imagem logo da plaforma Moodle" class="img-fluid icon">
+                    <p class="mt-4 h5">Letrus</p>
+                    <p>Um ambiente virtual de aprendizagem - AVA - com website e aplicativo celular</p>
+                </div>
+
+            </div>
         </div>
 
       
