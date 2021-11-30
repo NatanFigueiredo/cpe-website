@@ -2,7 +2,7 @@
 		<header>
 			<nav class="navbar navbar-expand-lg navbar-light cpe-azul">
 				<div class="container">
-					<a class="navbar-brand" href="#">
+					<a class="navbar-brand" href="/">
 						<img src="../assets/logo-cpe.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
 					</a>
 
@@ -33,10 +33,10 @@
 									<p class="dropdown-toggle"> Como Funciona </p>
 								</a> 
 								<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-									<router-link class="dropdown-item" to="/sobre"> 
+									<router-link class="dropdown-item" to="/aulas"> 
 										<p class="p-dark">Nossas Aulas</p> 
 									</router-link>
-									<router-link class="dropdown-item" to="/equipe"> 
+									<router-link class="dropdown-item" to="/processo-seletivo"> 
 										<p class="p-dark">Processo Seletivo de Alunos</p> 
 									</router-link>
 								</div>

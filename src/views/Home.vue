@@ -123,7 +123,6 @@ export default {
   max-width: auto;
   border-bottom: 3px solid #EF7A20; 
   font-family: 'Spartan', sans-serif;
-  font-weight: bold;
 }
 
 .carousel-caption > h5
