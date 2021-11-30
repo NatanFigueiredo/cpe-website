@@ -69,17 +69,17 @@
 
             <div class="d-sm-flex flex-sm-row justify-content-center">
                 <div class="m-2 box">
-                    <img src="@/assets/Icons/sun.png" alt="Imagem logo da plaforma Moodle" class="img-fluid icon">
+                    <img src="@/assets/Icons/moodle.png" alt="Imagem logo da plaforma Moodle" class="img-fluid icon">
                     <p class="mt-4 h5">Moodle</p>
                     <p>Um ambiente virtual de aprendizagem - AVA - com website e aplicativo de celular.</p>
                 </div>
                 <div class="m-2 box">
-                    <img src="@/assets/Icons/sun.png" alt="Imagem logo da plaforma Moodle" class="img-fluid icon">
+                    <img src="@/assets/Icons/qmagico.png" alt="Imagem logo da plaforma QMágico" class="img-fluid icon">
                     <p class="mt-4 h5">QMágico</p>
                     <p>Um ambiente virtual de aprendizagem - AVA - com website e aplicativo celular</p>
                 </div>
                 <div class="m-2 box">
-                    <img src="@/assets/Icons/sun.png" alt="Imagem logo da plaforma Moodle" class="img-fluid icon">
+                    <img src="@/assets/Icons/letrus.jpg" alt="Imagem logo da plaforma Letrus" class="img-fluid icon">
                     <p class="mt-4 h5">Letrus</p>
                     <p>Um ambiente virtual de aprendizagem - AVA - com website e aplicativo celular</p>
                 </div>
