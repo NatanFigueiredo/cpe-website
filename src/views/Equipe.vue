@@ -27,11 +27,11 @@
 						Em sua maioria, são estudantes de graduação e pós-graduação da EACH-USP que dedicam algumas horas semanais colaborando com o CPE
 					</p>
 				</div>
-				<div class="imageBox"/>
+				<img src="@/assets/imagesBox/adm1.jpg" alt="Pessoas sorrindo sentadas em uma escada" class="imageBox img-fluid">
 			</div>
 
 			<div class="content d-flex flex-column d-lg-flex flex-lg-row justify-content-center align-items-center w-100">
-				<div class="imageBox"/>
+				<img src="@/assets/imagesBox/adm2.jpg" alt="Gurpo de pessoas em pé e agachadas sorrindo com cartazes e rostos pintados com a palavra USP" class="imageBox img-fluid">
 				<div class="textColumn d-flex justify-content-center">
 					<p>
 						O CPE fornece um ambiente de intensa colaboração além de
@@ -74,11 +74,11 @@
 						Temos professores em todas as areas de conhecimento de vestibulares, que desenvolvem materiais próprios e especificos para uso dentro do CPE
 					</p>
 				</div>
-				<div class="imageBox"/>
+				<img src="@/assets/imagesBox/profs.jpeg" alt="Grupo de pessoas docentes tanto em pé quanto agachadas sorrindo" class="imageBox img-fluid">
 			</div>
 
 			<div class="content d-flex flex-column d-lg-flex flex-lg-row justify-content-center align-items-center w-100">	
-				<div class="imageBox"/>
+				<img src="@/assets/imagesBox/adm3.jpeg" alt="Estudantes sentados em uma sala de aula com pessoas em pé apresentado slides num projetor" class="imageBox img-fluid">
 				<div class="textColumn">
 					<p>
 						O CPE conta também com uma equipe de plantonistas voluntários, a disposição para auxliar e tirar dúvidas de estudantes ao longo do ano
@@ -127,11 +127,10 @@ export default {
 <style>
 
 div .imageBox {
-	margin: 4px;
-	width: 200px;
-	height: 200px;
-	border: 1px solid red;
-	background-color: red;
+	margin: 10px;
+	width: 300px;
+	border: 5px solid #12385B;
+	border-radius: 25px;
 }
 
 @media (min-width: 576px) { 
