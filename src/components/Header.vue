@@ -30,11 +30,11 @@
 							</li>
 							<li class="nav-item dropdown">
 								<a class="nav-link " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-									<p class="dropdown-toggle"> Como Funciona </p>
+									<p class="dropdown-toggle"> Aulas </p>
 								</a> 
 								<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 									<router-link class="dropdown-item" to="/aulas"> 
-										<p class="p-dark">Nossas Aulas</p> 
+										<p class="p-dark">Aulas e Turmas</p> 
 									</router-link>
 									<router-link class="dropdown-item" to="/processo-seletivo"> 
 										<p class="p-dark">Processo Seletivo de Alunos</p> 
