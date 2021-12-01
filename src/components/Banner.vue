@@ -50,5 +50,11 @@ export default {
     font-family: 'Spartan', sans-serif;
 }
 
+@media (max-width: 576px) { 
+	.banner-title {
+		font-size: 150%;
+	}
+}
+
 
 </style>
