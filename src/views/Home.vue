@@ -43,44 +43,14 @@
 
     <div class="divider-azul w-100"> </div>
 
-    <div class="content">
-      
-      <h1> Cursinho Popular EACH USP</h1>
-      <h5> Transformando em realidade o sonho de entrar na universidade</h5>
 
-    </div>
-
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col d-flex justify-content-center">
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="@/assets/atena-apostilas.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col d-flex justify-content-center">
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="@/assets/atena-apostilas.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col d-flex justify-content-center">
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="@/assets/atena-apostilas.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
+      <div class="m-5 infoBanner d-flex flex-column justify-content-center align-items-center">
+        <img src="@/assets/atena-camisa.png" alt="Figura da mascote do CPE, a coruja Atena" class="img-fluid">
+        <div class="d-flex flex-column">
+          <p class="h1 title">Olá, este é o site do CPE</p>
+          <p class="h5 subtitle">Ainda estamos ajeitando nossa Home, mas fique a vontade para explorar as outras páginas</p>
         </div>
       </div>
-    </div>
 
     
 
@@ -134,6 +104,37 @@ export default {
     color: white;
     font-weight: bold;
     font-family: 'Spartan', sans-serif;
+}
+
+.infoBanner {
+  border: 1px solid #12385B;
+  background-color: #12385B;
+  border-radius: 25px;
+  max-height: auto;
+}
+
+.infoBanner > * > .h1{
+  color:white;
+}
+
+.infoBanner > * > .subtitle{
+  margin: 10px;
+  background-color: unset;
+  border: unset;
+  display:block;
+  color:white;
+  width: auto;
+}
+
+.infoBanner > img {
+  max-width: auto;
+  height: 250px;
+}
+
+@media (max-width: 576px) { 
+  .infoBanner > * > .h1{
+    font-size: 25px;
+  }
 }
 
 </style>
