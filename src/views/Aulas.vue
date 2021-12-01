@@ -67,11 +67,16 @@
                 Estudantes do CPE também tem a disposição varias plataformas e ferramentas digitais, além de toda a estrutura da EACH-USP para estudos.
             </p>
 
-            <div class="d-sm-flex flex-sm-row justify-content-center">
+            <div class="d-flex flex-column d-lg-flex flex-lg-row justify-content-center">
                 <div class="m-2 box">
                     <img src="@/assets/Icons/moodle.png" alt="Imagem logo da plaforma Moodle" class="img-fluid icon">
                     <p class="mt-4 h5">Moodle</p>
                     <p>Um ambiente virtual de aprendizagem - AVA - com website e aplicativo de celular.</p>
+                </div>
+                <div class="m-2 box">
+                    <img src="@/assets/Icons/anglo-logo.png" alt="Imagem logo do Sistema Anglo de Ensino" class="img-fluid icon">
+                    <p class="mt-4 h5">Sistema Anglo</p>
+                    <p>Apostilas fisícas e digitais com a qualidade Anglo e sem custo para os estudantes.</p>
                 </div>
                 <div class="m-2 box">
                     <img src="@/assets/Icons/qmagico.png" alt="Imagem logo da plaforma QMágico" class="img-fluid icon">
