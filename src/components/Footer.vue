@@ -1,5 +1,5 @@
 <template>
-    <footer>
+    <footer role="contentinfo">
         <div class="faixaFooter">
             <div class="faleComAGente">
                 <div class="redesSociais">

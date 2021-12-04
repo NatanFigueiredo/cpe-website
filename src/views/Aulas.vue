@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div role="main">
         <Banner 
             title="Nossas Aulas" 
             imageName="sala1.jpg"

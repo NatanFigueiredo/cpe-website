@@ -41,7 +41,7 @@
 
     <!-- <img src="../assets/banner.jpg" class="banner img-fluid w-100" alt="Pessoas vestibulandas numa sala de aula"> -->
 
-    <div class="divider-azul w-100"> </div>
+    <div class="divider-azul w-100"/>
 
 
       <div class="m-5 infoBanner d-flex flex-column justify-content-center align-items-center">
@@ -96,7 +96,7 @@ p.h5 {
     color: white;
 }
 
-/*  */
+/* Visual Components */
 
 .divider-azul {
   height: 10px;

@@ -1,7 +1,7 @@
 <template>
 	<div class="banner">
 		
-		<img :src="require(`@/assets/Banners/${imageName}`)" :alt="imageAlt" class="img-fluid">
+		<img :src="require(`@/assets/Banners/${imageName}`)" :alt="imageAlt" class="img-fluid" role="banner">
 		<div class="centered">
 			<h1 class="display-2 banner-title"> {{title}} </h1>
 		</div>

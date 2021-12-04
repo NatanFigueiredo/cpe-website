@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div role="main">
 		<Banner 
 			title="Seja estudante do CPE"
 			imageName="sala1.jpg"

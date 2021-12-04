@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div role="main">    
 		<Banner 
 			title="Conheça o Cursinho EACH-USP"
 			imageName="espacocursinho.jpg"
