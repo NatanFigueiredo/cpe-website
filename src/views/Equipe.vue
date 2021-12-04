@@ -47,15 +47,19 @@
 			<p class="mt-4 h5"> Tem interesse em fazer parte do corpo administrativo do Cursinho e realizar sonhos? </p>
 			<div v-if="psAdm" class="alert alert-success" role="alert">
 				Nosso processo seletivo para membros administrativos está aberto <br>
-				<a class="m-2" href="http://bit.ly/ManualProcessoSeletivo20212">
-					<button type="button" class="btn btn-sm mt-2">Se inscreva aqui</button>
-				</a>
+				<Button 
+					content="Se inscreva aqui"
+					link="http://bit.ly/ManualProcessoSeletivo20212"
+					cssClasses="btn btn-sm mt-2"
+				/>
 			</div>
 			<div v-else class="alert alert-primary" role="alert">
 				Preencha nosso fomulário de interresse e fique sabendo assim que o processo seletivo iniciar <br>
-				<a class="m-2" href="https://bit.ly/FormulárioInteresseCPE">
-					<button type="button" class="btn btn-sm mt-2">Forms de Interesse </button>
-				</a>
+				<Button 
+					content="Forms de Interesse"
+					link="https://bit.ly/FormulárioInteresseCPE"
+					cssClasses="btn btn-sm mt-2"
+				/>
 			</div>
 
 		</div>
@@ -91,15 +95,20 @@
 			<p class="mt-4 h5"> Tem interesse em lecionar no Cursinho e colaborar com a educação popular? </p>
 			<div v-if="psProf" class="alert alert-success" role="alert">
 				Nosso processo seletivo para professores e plantonistas está aberto <br>
-				<a class="m-2" href="http://bit.ly/ManualProcessoSeletivo20212">
-					<button type="button" class="btn btn-sm mt-2">Se inscreva aqui</button>
-				</a>
+				<Button 
+					content="Se inscreva aqui"
+					link="http://bit.ly/ManualProcessoSeletivo20212"
+					cssClasses="btn btn-sm mt-2"
+				/>
 			</div>
 			<div v-else class="alert alert-primary" role="alert">
 				Preencha nosso fomulário de interresse e fique sabendo assim que o processo seletivo iniciar <br>
-				<a class="m-2" href="https://bit.ly/FormulárioInteresseCPE">
-					<button type="button" class="btn btn-sm mt-2">Forms de Interesse </button>
-				</a>
+				<Button 
+					content="Forms de Interesse"
+					link="https://bit.ly/FormulárioInteresseCPE"
+					cssClasses="btn btn-sm mt-2"
+				/>
+				
 			</div>
 			
 
@@ -109,6 +118,7 @@
 
 <script>
 import Banner from '../components/Banner.vue'
+import Button from '../components/Button.vue'
 
 export default {
 	data() {
@@ -118,7 +128,8 @@ export default {
 		}
 	},
 	components: {
-			Banner
+			Banner, 
+			Button
 	}
 
 }
