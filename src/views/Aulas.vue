@@ -114,37 +114,10 @@ export default {
 
 <style>
 
-.divider-azul {
-  height: 10px;
-  background-color:#12385B;
-}
-
-.title {
-    font-weight: bold;
-    font-family: 'Spartan', sans-serif;
-    text-shadow: 2px 2px #EF7A20;
-}
-
-.subtitle {
-    color: #12385B;
-    font-weight: bold;
-    font-family: 'Spartan', sans-serif;
-    border-bottom: 5px solid #EF7A20;
-    /* text-shadow: 2px 2px #fdc41c; */
-    width: max-content;
-}
-
 img.icon {
     border: 2px solid #12385B;
     border-radius: 50%;
     width: 100px;
-}
-
-p.h5 {
-    font-weight: bold;
-    border: 1px solid #12385B;
-    background-color: #12385B;
-    color: white;
 }
 
 @media (min-width: 960px) {

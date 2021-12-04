@@ -3,7 +3,7 @@
 		
 		<img :src="require(`@/assets/Banners/${imageName}`)" :alt="imageAlt" class="img-fluid">
 		<div class="centered">
-			<p class="display-2 banner-title"> {{title}} </p>
+			<h1 class="display-2 banner-title"> {{title}} </h1>
 		</div>
 
 	</div>
