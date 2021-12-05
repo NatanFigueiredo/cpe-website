@@ -67,7 +67,7 @@
 		<div class="m-2 divider-azul w-75 mx-auto bgc-originalColor"/>
 
 		<!-- Professores -->
-		<div id="docentes" class="m-4 d-flex flex-column justify-content-center align-items-center">
+		<div id="docentes" class="m-4 mb-0 d-flex flex-column justify-content-center align-items-center">
 			<p class="h2 subtitle subtitle-originalColor ">Pessoas docentes e plantonistas</p>
 
 			<div class="content d-flex flex-column-reverse d-lg-flex flex-lg-row justify-content-center align-items-center w-100">	

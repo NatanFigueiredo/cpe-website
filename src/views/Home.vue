@@ -44,11 +44,13 @@
     <div class="divider-azul bgc-originalColor w-100"/>
 
 
-      <div class="m-5 infoBanner d-flex flex-column justify-content-center align-items-center bgc-originalColor">
-        <img src="@/assets/atena-camisa.png" alt="Figura da mascote do CPE, a coruja Atena" class="img-fluid">
-        <div class="d-flex flex-column">
-          <p class="h1 title title-originalColor text-originalColor sh-originalColor">Olá, este é o site do CPE</p>
-          <p class="h5 subtitle text-originalColor">Ainda estamos ajeitando nossa Home, mas fique a vontade para explorar as outras páginas</p>
+      <div class="p-5">
+        <div class="infoBanner d-flex flex-column justify-content-center align-items-center bgc-originalColor">
+          <img src="@/assets/atena-camisa.png" alt="Figura da mascote do CPE, a coruja Atena" class="img-fluid">
+          <div class="d-flex flex-column">
+            <p class="h1 title title-originalColor text-originalColor sh-originalColor">Olá, este é o site do CPE</p>
+            <p class="h5 subtitle text-originalColor">Ainda estamos ajeitando nossa Home, mas fique a vontade para explorar as outras páginas</p>
+          </div>
         </div>
       </div>
 
