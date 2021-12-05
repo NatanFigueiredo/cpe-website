@@ -14,11 +14,11 @@
 			</p>
 		</div>
 
-		<div class="divider-azul w-75 mx-auto"> </div>
+		<div class="divider-azul w-75 mx-auto bg-originalColor"> </div>
 		
 		<!-- Resumo -->
 		<div class="mt-4 d-flex flex-column justify-content-center align-items-center w-100">
-			<p class="h2 subtitle">Prazer, CPE</p>
+			<p class="h2 subtitle subtitle-originalColor ">Prazer, CPE</p>
 
 			<div class="content d-flex flex-column-reverse d-lg-flex flex-lg-row justify-content-center align-items-center">
 				<div class="m-2 textColumn d-flex flex-column justify-content-between" id="boxResumo">
@@ -46,22 +46,22 @@
 
 		</div>
 
-		<div class="divider-azul w-75 mx-auto"> </div>
+		<div class="divider-azul w-75 mx-auto bg-originalColor"> </div>
 
 		<!-- História -->
 		<div class="mt-4 d-flex flex-column justify-content-center align-items-center w-100">
-			<p class="h2 subtitle">A História do Cursinho</p>
+			<p class="h2 subtitle subtitle-originalColor ">A História do Cursinho</p>
 
 			<p class="textColumn m-4">
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae odio lorem. Donec eu lacus nec nulla bibendum posuere scelerisque ut augue. Proin non nisl vel neque fermentum euismod quis quis dui. Donec accumsan nulla venenatis, fermentum sem quis, suscipit augue. Suspendisse tempor massa vel est ultrices, sit amet ultrices leo suscipit. Sed gravida sagittis felis ut sodales. Sed et nisi quam. Cras vitae suscipit quam, lobortis viverra quam. Nullam tincidunt semper metus vel facilisis. Vestibulum eget commodo ante. Suspendisse nec sapien lacus. Praesent id neque pulvinar, molestie eros quis, sagittis neque. 
 			</p>
 		</div>
 
-		<div class="divider-azul w-75 mx-auto"> </div>
+		<div class="divider-azul w-75 mx-auto bg-originalColor"> </div>
 
 		<!-- Atena -->
 		<div class="mt-4 d-flex flex-column justify-content-center align-items-center w-100">
-			<p class="h2 subtitle">Atena Sanches</p>
+			<p class="h2 subtitle subtitle-originalColor ">Atena Sanches</p>
 			<div class="content d-flex flex-column justify-content-center align-items-center w-100">	
 				<div class="d-sm-flex flex-sm-row">
 					<img src="@/assets/atena-camisa.png" alt="Figura da mascote do CPE, a coruja Atena" class="imageBox rounded-circle">

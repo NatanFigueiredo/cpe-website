@@ -14,11 +14,11 @@
             </p>
 		</div>
 
-		<div class="m-2 divider-azul w-75 mx-auto"/>
+		<div class="m-2 divider-azul w-75 mx-auto bg-originalColor"/>
 
 		<!-- Administrativo  -->
 		<div id="adm" class="m-4 d-flex d-flex flex-column justify-content-center align-items-center">
-			<p class="h2 subtitle">Pessoas voluntárias administrativas</p>
+			<p class="h2 subtitle subtitle-originalColor ">Pessoas voluntárias administrativas</p>
 			<div class="content d-flex flex-column-reverse d-lg-flex flex-lg-row justify-content-center align-items-center w-100">	
 				<div class="textColumn">
 					<p> 
@@ -44,7 +44,7 @@
 			</div>
 			
 			<!-- Alerts -->
-			<p class="mt-4 h5"> Tem interesse em fazer parte do corpo administrativo do Cursinho e realizar sonhos? </p>
+			<p class="mt-4 h5 hl-originalColor"> Tem interesse em fazer parte do corpo administrativo do Cursinho e realizar sonhos? </p>
 			<div v-if="psAdm" class="alert alert-success" role="alert">
 				Nosso processo seletivo para membros administrativos está aberto <br>
 				<Button 
@@ -64,11 +64,11 @@
 
 		</div>
 
-		<div class="m-2 divider-azul w-75 mx-auto"/>
+		<div class="m-2 divider-azul w-75 mx-auto bg-originalColor"/>
 
 		<!-- Professores -->
 		<div id="docentes" class="m-4 d-flex flex-column justify-content-center align-items-center">
-			<p class="h2 subtitle">Pessoas docentes e plantonistas</p>
+			<p class="h2 subtitle subtitle-originalColor ">Pessoas docentes e plantonistas</p>
 
 			<div class="content d-flex flex-column-reverse d-lg-flex flex-lg-row justify-content-center align-items-center w-100">	
 				<div class="textColumn">
@@ -92,7 +92,7 @@
 			
 			
 
-			<p class="mt-4 h5"> Tem interesse em lecionar no Cursinho e colaborar com a educação popular? </p>
+			<p class="mt-4 h5 hl-originalColor"> Tem interesse em lecionar no Cursinho e colaborar com a educação popular? </p>
 			<div v-if="psProf" class="alert alert-success" role="alert">
 				Nosso processo seletivo para professores e plantonistas está aberto <br>
 				<Button 
