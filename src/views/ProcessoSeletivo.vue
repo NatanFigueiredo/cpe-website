@@ -1,5 +1,5 @@
 <template>
-	<div role="main">
+	<div role="main" class="bg-originalColor">
 		<Banner 
 			title="Seja estudante do CPE"
 			imageName="sala1.jpg"
@@ -8,11 +8,11 @@
 
 		<div class="mt-4 container-fluid d-flex flex-column align-items-center">
 
-            <h2 class="h1 d-inline-flex title">Processo Seletivo de Estudantes</h2>
+            <h2 class="h1 d-inline-flex title title-originalColor">Processo Seletivo de Estudantes</h2>
 
 			<div id="psInfo" class="d-flex flex-column align-items-center d-sm-flex flex-sm-row justify-content-sm-center m-2">
 				<img src="@/assets/Icons/selection.png" alt="Icone de uma pessoa sendo escolhida dentre três no total" class="img-fluid icon lg-icon">
-				<div class="w-100 m-0 d-flex flex-column align-items-center">
+				<div class="w-100 m-0 d-flex flex-column align-items-center text-originalColor">
 					<h3 class="h2 subtitle subtitle-originalColor ">Informações principais</h3>
 					<p class="mt-4">Para ser estudante do Cursinho, é necessario se inscrever e ser aprovado em nosso processo seletivo </p>
 					<p class="d-flex flex-column align-items-center">
@@ -61,9 +61,9 @@
                 </div>
             </div> -->
 
-			<div class="divider-azul w-75 mx-auto bg-originalColor"/>
+			<div class="divider-azul w-75 mx-auto bgc-originalColor"/>
 
-			<div class="d-flex align-items-center flex-column m-4 container-fluid">
+			<div class="d-flex align-items-center flex-column m-4 container-fluid text-originalColor">
 				<h3 class="h2 subtitle subtitle-originalColor ">Procesos seletivos anteriores</h3>
 				<p class="mt-2">Veja aqui os editais de processos seletivos anteriores</p>
 				<div id="processosanteriores" class="w-100 d-flex flex-column d-sm-flex flex-sm-row justify-content-center">

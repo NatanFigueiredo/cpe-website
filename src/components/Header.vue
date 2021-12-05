@@ -1,6 +1,6 @@
 <template>
 		<header>
-			<nav class="navbar navbar-expand-lg navbar-light bg-originalColor" role="navigation">
+			<nav class="navbar navbar-expand-lg navbar-light bgc-originalColor" role="navigation">
 				<div class="container">
 					<a class="navbar-brand" href="/">
 						<img src="../assets/logo-cpe.png" alt="" width="30" height="24" class="d-inline-block align-text-top">

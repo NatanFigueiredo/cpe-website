@@ -1,5 +1,5 @@
 <template>
-    <footer role="contentinfo" id="faixaFooter" class="d-flex flex-column bg-originalColor">
+    <footer role="contentinfo" id="faixaFooter" class="d-flex flex-column bgc-originalColor">
         <div id="info" class="d-lg-flex flex-lg-row justify-content-center">
             <div id="cpeInfo" class="m-2 text-originalColor d-flex flex-column align-items-start">
                 <p>Cursinho Popular EACH USP - CPE</p>
@@ -71,17 +71,19 @@ export default {
             if(option === 1) {
                 // Changing text
                 this.changeClass("text-alternativeColor","text-originalColor")
-                this.changeClass("bg-alternativeColor","bg-originalColor")
+                this.changeClass("bgc-alternativeColor","bgc-originalColor")
                 this.changeClass("sh-alternativeColor","sh-originalColor")
                 this.changeClass("subtitle-alternativeColor","subtitle-originalColor")
-                this.changeClass("hl-alternativeColor","hl-originalColor")
+                this.changeClass("bg-alternativeColor","bg-originalColor")
+                this.changeClass("title-alternativeColor","title-originalColor")
             }
             else if(option === 2) {
                 this.changeClass("text-originalColor","text-alternativeColor")
-                this.changeClass("bg-originalColor","bg-alternativeColor")
+                this.changeClass("bgc-originalColor","bgc-alternativeColor")
                 this.changeClass("sh-originalColor","sh-alternativeColor")
                 this.changeClass("subtitle-originalColor","subtitle-alternativeColor")
-                this.changeClass("hl-originalColor","hl-alternativeColor")
+                this.changeClass("bg-originalColor","bg-alternativeColor")
+                this.changeClass("title-originalColor","title-alternativeColor")
             }
         }  
     }

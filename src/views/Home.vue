@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="home bg-originalColor">
 
     <div id="carouselCPE" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
@@ -41,13 +41,13 @@
 
     <!-- <img src="../assets/banner.jpg" class="banner img-fluid w-100" alt="Pessoas vestibulandas numa sala de aula"> -->
 
-    <div class="divider-azul bg-originalColor w-100"/>
+    <div class="divider-azul bgc-originalColor w-100"/>
 
 
-      <div class="m-5 infoBanner d-flex flex-column justify-content-center align-items-center bg-originalColor">
+      <div class="m-5 infoBanner d-flex flex-column justify-content-center align-items-center bgc-originalColor">
         <img src="@/assets/atena-camisa.png" alt="Figura da mascote do CPE, a coruja Atena" class="img-fluid">
         <div class="d-flex flex-column">
-          <p class="h1 title text-originalColor sh-originalColor">Olá, este é o site do CPE</p>
+          <p class="h1 title title-originalColor text-originalColor sh-originalColor">Olá, este é o site do CPE</p>
           <p class="h5 subtitle text-originalColor">Ainda estamos ajeitando nossa Home, mas fique a vontade para explorar as outras páginas</p>
         </div>
       </div>
@@ -162,6 +162,10 @@ p.h5 {
 }
 
 .bg-originalColor {
+  background-color: #3D76BA ;
+}
+
+.bgc-originalColor {
   background-color: #12385B !important;
 }
 
@@ -169,8 +173,12 @@ p.h5 {
   text-shadow: 2px 2px #EF7A20;
 }
 
+.title-originalColor {
+  color: white;
+}
+
 .subtitle-originalColor {
-  color: #12385B;
+  color: white;
   border-bottom: 5px solid #EF7A20;
 }
 
@@ -186,6 +194,10 @@ p.h5 {
 }
 
 .bg-alternativeColor {
+  background-color: white ;
+}
+
+.bgc-alternativeColor {
   background-color: #EF7A20 !important;
 }
 
@@ -193,14 +205,18 @@ p.h5 {
   text-shadow: 2px 2px white;
 }
 
+.title-alternativeColor {
+  color: black;
+}
+
 .subtitle-alternativeColor {
-  color: #EF7A20;
-  border-bottom: 5px solid #12385B;
+  color:  #12385B;
+  border-bottom: 5px solid #EF7A20;
 }
 
 .hl-alternativeColor {
-  background-color: #EF7A20;
-  color: black;
+  background-color: #12385B;
+  color: white;
 }
 
 
