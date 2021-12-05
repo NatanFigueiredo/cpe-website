@@ -1,5 +1,5 @@
 <template>
-	<div role="main">    
+	<div role="main" class="bg-originalColor">    
 		<Banner 
 			title="Conheça o Cursinho EACH-USP"
 			imageName="espacocursinho.jpg"
@@ -7,21 +7,21 @@
 		/>
 
 		<div class="mt-4">
-			<p class="h1 d-inline-flex title">Cursinho Popular EACH-USP</p>
-			<p>
+			<p class="h1 d-inline-flex title title-originalColor">Cursinho Popular EACH-USP</p>
+			<p class="text-originalColor">
 				Transformando em realidade o sonho de entrar na universidade <br>
 				Conheça aqui mais um pouco sobre nós
 			</p>
 		</div>
 
-		<div class="divider-azul w-75 mx-auto"> </div>
+		<div class="divider-azul w-75 mx-auto bgc-originalColor"> </div>
 		
 		<!-- Resumo -->
 		<div class="mt-4 d-flex flex-column justify-content-center align-items-center w-100">
-			<p class="h2 subtitle">Prazer, CPE</p>
+			<p class="h2 subtitle subtitle-originalColor ">Prazer, CPE</p>
 
 			<div class="content d-flex flex-column-reverse d-lg-flex flex-lg-row justify-content-center align-items-center">
-				<div class="m-2 textColumn d-flex flex-column justify-content-between" id="boxResumo">
+				<div class="m-2 textColumn d-flex flex-column justify-content-between text-originalColor" id="boxResumo">
 					<p>
 						O Cursinho Popular EACH-USP é um cursinho pré-vestibular 100% gratuito, 
 						sem qualquer mensalidade, taxa de inscrição ou custo de material, 
@@ -46,28 +46,28 @@
 
 		</div>
 
-		<div class="divider-azul w-75 mx-auto"> </div>
+		<div class="divider-azul w-75 mx-auto bgc-originalColor"> </div>
 
 		<!-- História -->
 		<div class="mt-4 d-flex flex-column justify-content-center align-items-center w-100">
-			<p class="h2 subtitle">A História do Cursinho</p>
+			<p class="h2 subtitle subtitle-originalColor ">A História do Cursinho</p>
 
-			<p class="textColumn m-4">
+			<p class="textColumn m-4 text-originalColor">
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae odio lorem. Donec eu lacus nec nulla bibendum posuere scelerisque ut augue. Proin non nisl vel neque fermentum euismod quis quis dui. Donec accumsan nulla venenatis, fermentum sem quis, suscipit augue. Suspendisse tempor massa vel est ultrices, sit amet ultrices leo suscipit. Sed gravida sagittis felis ut sodales. Sed et nisi quam. Cras vitae suscipit quam, lobortis viverra quam. Nullam tincidunt semper metus vel facilisis. Vestibulum eget commodo ante. Suspendisse nec sapien lacus. Praesent id neque pulvinar, molestie eros quis, sagittis neque. 
 			</p>
 		</div>
 
-		<div class="divider-azul w-75 mx-auto"> </div>
+		<div class="divider-azul w-75 mx-auto bgc-originalColor"> </div>
 
 		<!-- Atena -->
 		<div class="mt-4 d-flex flex-column justify-content-center align-items-center w-100">
-			<p class="h2 subtitle">Atena Sanches</p>
+			<p class="h2 subtitle subtitle-originalColor ">Atena Sanches</p>
 			<div class="content d-flex flex-column justify-content-center align-items-center w-100">	
 				<div class="d-sm-flex flex-sm-row">
 					<img src="@/assets/atena-camisa.png" alt="Figura da mascote do CPE, a coruja Atena" class="imageBox rounded-circle">
 					<img src="@/assets/atena-apostilas.jpg" alt="Foto da pelúcia Atena sobre apostilas de estudo" class="imageBox rounded-circle">
 				</div>
-				<p class="m-4 textColumn">
+				<p class="m-4 textColumn text-originalColor">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac augue iaculis, elementum dolor vitae, congue orci. In pellentesque quam sed sapien condimentum hendrerit nec et diam. Aenean id ligula nec magna lacinia maximus eget ac odio. Donec sit amet massa consequat, gravida enim nec, tincidunt justo. Lorem ipsum dolor. 
 				</p>
 			</div>

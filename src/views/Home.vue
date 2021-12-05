@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="home bg-originalColor">
 
     <div id="carouselCPE" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
@@ -41,14 +41,16 @@
 
     <!-- <img src="../assets/banner.jpg" class="banner img-fluid w-100" alt="Pessoas vestibulandas numa sala de aula"> -->
 
-    <div class="divider-azul w-100"/>
+    <div class="divider-azul bgc-originalColor w-100"/>
 
 
-      <div class="m-5 infoBanner d-flex flex-column justify-content-center align-items-center">
-        <img src="@/assets/atena-camisa.png" alt="Figura da mascote do CPE, a coruja Atena" class="img-fluid">
-        <div class="d-flex flex-column">
-          <p class="h1 title">Olá, este é o site do CPE</p>
-          <p class="h5 subtitle">Ainda estamos ajeitando nossa Home, mas fique a vontade para explorar as outras páginas</p>
+      <div class="p-5">
+        <div class="infoBanner d-flex flex-column justify-content-center align-items-center bgc-originalColor">
+          <img src="@/assets/atena-camisa.png" alt="Figura da mascote do CPE, a coruja Atena" class="img-fluid">
+          <div class="d-flex flex-column">
+            <p class="h1 title title-originalColor text-originalColor sh-originalColor">Olá, este é o site do CPE</p>
+            <p class="h5 subtitle text-originalColor">Ainda estamos ajeitando nossa Home, mas fique a vontade para explorar as outras páginas</p>
+          </div>
         </div>
       </div>
 
@@ -77,30 +79,23 @@ export default {
 .title {
     font-weight: bold;
     font-family: 'Spartan', sans-serif;
-    text-shadow: 2px 2px #EF7A20;
 }
 
 .subtitle {
-    color: #12385B;
     font-weight: bold;
     font-family: 'Spartan', sans-serif;
-    border-bottom: 5px solid #EF7A20;
     /* text-shadow: 2px 2px #fdc41c; */
     width: max-content;
 }
 
 p.h5 {
     font-weight: bold;
-    border: 1px solid #12385B;
-    background-color: #12385B;
-    color: white;
 }
 
 /* Visual Components */
 
 .divider-azul {
   height: 10px;
-  background-color:#12385B;
 }
 
 .card {
@@ -148,7 +143,6 @@ p.h5 {
   background-color: unset;
   border: unset;
   display:block;
-  color:white;
   width: auto;
 }
 
@@ -162,5 +156,70 @@ p.h5 {
     font-size: 25px;
   }
 }
+
+/* Cores Originais */
+
+.text-originalColor{
+    color: white !important;
+}
+
+.bg-originalColor {
+  background-color: #3D76BA ;
+}
+
+.bgc-originalColor {
+  background-color: #12385B !important;
+}
+
+.sh-originalColor {
+  text-shadow: 2px 2px #EF7A20;
+}
+
+.title-originalColor {
+  color: white;
+}
+
+.subtitle-originalColor {
+  color: white;
+  border-bottom: 5px solid #EF7A20;
+}
+
+.hl-originalColor {
+  background-color: #12385B;
+  color: white;
+}
+
+/* Cores Alternativas */
+
+.text-alternativeColor{
+    color: black !important;
+}
+
+.bg-alternativeColor {
+  background-color: white ;
+}
+
+.bgc-alternativeColor {
+  background-color: #EF7A20 !important;
+}
+
+.sh-alternativeColor {
+  text-shadow: 2px 2px white;
+}
+
+.title-alternativeColor {
+  color: black;
+}
+
+.subtitle-alternativeColor {
+  color:  #12385B;
+  border-bottom: 5px solid #EF7A20;
+}
+
+.hl-alternativeColor {
+  background-color: #12385B;
+  color: white;
+}
+
 
 </style>
