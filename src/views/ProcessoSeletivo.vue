@@ -6,7 +6,7 @@
 			imageAlt="Estudante em uma sala de aula"
 		/>
 
-		<div class="mt-4 container-fluid d-flex flex-column align-items-center">
+		<div class="mt-4 container-fluid d-flex flex-column align-items-center" tabindex="0">
 
             <h2 class="h1 d-inline-flex title title-originalColor">Processo Seletivo de Estudantes</h2>
 
@@ -29,11 +29,11 @@
 				</div>
 			</div>
 
-			<div v-if="ps" class="alert alert-success" role="alert">
+			<div v-if="ps" class="alert alert-success" role="alert" tabindex="0">
 				Nosso processo seletivo para estudantes está aberto <br>
 				Veja mais detalhes na seção abaixo
 			</div>
-			<div v-else class="alert alert-danger" role="alert">
+			<div v-else class="alert alert-danger" role="alert" tabindex="0">
 				No momento não possuímos nenhum PS em andamento <br>
 				Siga nossas redes sociais para saber quando um novo processo seletivo de estudantes ocorrer
 			</div>
@@ -63,9 +63,9 @@
 
 			<div class="divider-azul w-75 mx-auto bgc-originalColor"/>
 
-			<div class="d-flex align-items-center flex-column m-4 container-fluid text-originalColor">
+			<div class="d-flex align-items-center flex-column m-4 container-fluid text-originalColor" tabindex="0">
 				<h3 class="h2 subtitle subtitle-originalColor ">Procesos seletivos anteriores</h3>
-				<p class="mt-2">Veja aqui os editais de processos seletivos anteriores</p>
+				<p class="mt-2">Veja aqui os editais de processos seletivos anteriores:</p>
 				<div id="processosanteriores" class="w-100 d-flex flex-column d-sm-flex flex-sm-row justify-content-center">
 					<div class="m-2 box">
 						<p class="mt-4 h5 hl-originalColor">Turma Extensiva</p>

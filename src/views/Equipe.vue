@@ -6,71 +6,74 @@
 			imageAlt="Pessoas voluntárias sorrindo e segurando uma bandeira com o logo do cursinho "
 		/>
 
-		<div class="mt-2">
+		<div class="mt-2" tabindex="0">
 			<p class="h1 d-inline-flex title title-originalColor">Acreditamos no poder transformador da educação</p>
 			<p class="text-originalColor">
                 Todas as pessoas do cursinho, docentes e membros administrativos, são pessoas voluntárias e unidas pelo propósito de nossos estudantes  <br>
-                Veja abaixo mais informações sobre as pessoas que foram o CPE
+                Veja abaixo mais informações sobre as pessoas que formam o CPE
             </p>
 		</div>
 
 		<div class="m-2 divider-azul w-75 mx-auto bgc-originalColor"/>
 
 		<!-- Administrativo  -->
-		<div id="adm" class="m-4 d-flex d-flex flex-column justify-content-center align-items-center">
+		<div id="adm" class="m-4 d-flex d-flex flex-column justify-content-center align-items-center" tabindex="0">
 			<p class="h2 subtitle subtitle-originalColor ">Pessoas voluntárias administrativas</p>
-			<div class="content d-flex flex-column-reverse d-lg-flex flex-lg-row justify-content-center align-items-center w-100">	
+			<div class="content d-flex flex-column-reverse d-lg-flex flex-lg-row justify-content-center align-items-center w-100" tabindex="0">	
 				<div class="textColumn text-originalColor">
 					<p> 
-						A parte administrativa do cursinho é dividida em departamentos que colaboram ativamente para fazer a melhor gestão e levar a melhor experiência de estudo para nossos alunos 
+						A parte administrativa do cursinho é dividida em departamentos que colaboram ativamente para fazer a melhor gestão e levar a melhor experiência de estudo para nossos alunos. 
 						<br>
-						Em sua maioria, são estudantes de graduação e pós-graduação da EACH-USP que dedicam algumas horas semanais colaborando com o CPE
+						Em sua maioria, são estudantes de graduação e pós-graduação da EACH-USP que dedicam algumas horas semanais colaborando com o CPE.
 					</p>
 				</div>
 				<img src="@/assets/imagesBox/adm1.jpg" alt="Pessoas sorrindo sentadas em uma escada" class="imageBox img-fluid">
 			</div>
 
-			<div class="content d-flex flex-column d-lg-flex flex-lg-row justify-content-center align-items-center w-100">
+			<div class="content d-flex flex-column d-lg-flex flex-lg-row justify-content-center align-items-center w-100" tabindex="0">
 				<img src="@/assets/imagesBox/adm2.jpg" alt="Gurpo de pessoas em pé e agachadas sorrindo com cartazes e rostos pintados com a palavra USP" class="imageBox img-fluid">
 				<div class="textColumn d-flex justify-content-center text-originalColor">
 					<p>
-						O CPE fornece um ambiente de intensa colaboração além de
+						O CPE fornece um ambiente de intensa colaboração além de:
 						<ul class="d-flex flex-column align-items-start">
-							<li> Certificado de voluntariado </li>
-							<li> Horas de estágio (verifique os cursos)</li>
+							<li> Certificado de voluntariado; </li>
+							<li> Horas de estágio (consulte os cursos aceitos);</li>
 						</ul>
 					</p>
 				</div>
 			</div>
 			
 			<!-- Alerts -->
-			<p class="mt-4 h5 hl-originalColor"> Tem interesse em fazer parte do corpo administrativo do Cursinho e realizar sonhos? </p>
-			<div v-if="psAdm" class="alert alert-success" role="alert">
-				Nosso processo seletivo para membros administrativos está aberto <br>
-				<Button 
-					content="Se inscreva aqui"
-					link="http://bit.ly/ManualProcessoSeletivo20212"
-					cssClasses="btn btn-sm mt-2"
-				/>
+			<div tabindex="0">
+				<p class="mt-4 h5 hl-originalColor" > Tem interesse em fazer parte do corpo administrativo do Cursinho e realizar sonhos? </p>
+				<div v-if="psAdm" class="alert alert-success" role="alert">
+					Nosso processo seletivo para membros administrativos está aberto <br>
+					<Button 
+						content="Se inscreva aqui"
+						link="http://bit.ly/ManualProcessoSeletivo20212"
+						cssClasses="btn btn-sm mt-2"
+					/>
+				</div>
+				<div v-else class="alert alert-primary" role="alert">
+					Preencha nosso fomulário de interesse e fique sabendo assim que o processo seletivo iniciar. <br>
+					<Button 
+						content="Forms de Interesse"
+						link="https://bit.ly/FormulárioInteresseCPE"
+						cssClasses="btn btn-sm mt-2"
+					/>
+				</div>
 			</div>
-			<div v-else class="alert alert-primary" role="alert">
-				Preencha nosso fomulário de interresse e fique sabendo assim que o processo seletivo iniciar <br>
-				<Button 
-					content="Forms de Interesse"
-					link="https://bit.ly/FormulárioInteresseCPE"
-					cssClasses="btn btn-sm mt-2"
-				/>
-			</div>
+			
 
 		</div>
 
 		<div class="m-2 divider-azul w-75 mx-auto bgc-originalColor"/>
 
 		<!-- Professores -->
-		<div id="docentes" class="m-4 mb-0 d-flex flex-column justify-content-center align-items-center">
+		<div id="docentes" class="m-4 mb-0 d-flex flex-column justify-content-center align-items-center" tabindex="0">
 			<p class="h2 subtitle subtitle-originalColor ">Pessoas docentes e plantonistas</p>
 
-			<div class="content d-flex flex-column-reverse d-lg-flex flex-lg-row justify-content-center align-items-center w-100">	
+			<div class="content d-flex flex-column-reverse d-lg-flex flex-lg-row justify-content-center align-items-center w-100" tabindex="0">	
 				<div class="textColumn text-originalColor">
 					<p> 
 						As aulas no cursinho são lecionadas por docentes que acreditam na educação e fazem disso sua paixão.
@@ -81,7 +84,7 @@
 				<img src="@/assets/imagesBox/profs.jpeg" alt="Grupo de pessoas docentes tanto em pé quanto agachadas sorrindo" class="imageBox img-fluid">
 			</div>
 
-			<div class="content d-flex flex-column d-lg-flex flex-lg-row justify-content-center align-items-center w-100">	
+			<div class="content d-flex flex-column d-lg-flex flex-lg-row justify-content-center align-items-center w-100" tabindex="0">	
 				<img src="@/assets/imagesBox/adm3.jpeg" alt="Estudantes sentados em uma sala de aula com pessoas em pé apresentado slides num projetor" class="imageBox img-fluid">
 				<div class="textColumn text-originalColor">
 					<p>
@@ -91,25 +94,28 @@
 			</div>
 			
 			
+			<div tabindex="0">
+				<p class="mt-4 h5 hl-originalColor"> Tem interesse em lecionar no Cursinho e colaborar com a educação popular? </p>
+				<div v-if="psProf" class="alert alert-success" role="alert">
+					Nosso processo seletivo para professores e plantonistas está aberto <br>
+					<Button 
+						content="Se inscreva aqui"
+						link="http://bit.ly/ManualProcessoSeletivo20212"
+						cssClasses="btn btn-sm mt-2"
+					/>
+				</div>
+				<div v-else class="alert alert-primary" role="alert">
+					Preencha nosso fomulário de interesse e fique sabendo assim que o processo seletivo iniciar <br>
+					<Button 
+						content="Forms de Interesse"
+						link="https://bit.ly/FormulárioInteresseCPE"
+						cssClasses="btn btn-sm mt-2"
+					/>
+					
+				</div>
+			</div>
 
-			<p class="mt-4 h5 hl-originalColor"> Tem interesse em lecionar no Cursinho e colaborar com a educação popular? </p>
-			<div v-if="psProf" class="alert alert-success" role="alert">
-				Nosso processo seletivo para professores e plantonistas está aberto <br>
-				<Button 
-					content="Se inscreva aqui"
-					link="http://bit.ly/ManualProcessoSeletivo20212"
-					cssClasses="btn btn-sm mt-2"
-				/>
-			</div>
-			<div v-else class="alert alert-primary" role="alert">
-				Preencha nosso fomulário de interresse e fique sabendo assim que o processo seletivo iniciar <br>
-				<Button 
-					content="Forms de Interesse"
-					link="https://bit.ly/FormulárioInteresseCPE"
-					cssClasses="btn btn-sm mt-2"
-				/>
-				
-			</div>
+			
 			
 
 		</div>

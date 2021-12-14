@@ -1,7 +1,7 @@
 <template>
     <footer role="contentinfo" id="faixaFooter" class="d-flex flex-column bgc-originalColor">
         <div id="info" class="d-lg-flex flex-lg-row justify-content-center">
-            <div id="cpeInfo" class="m-2 text-originalColor d-flex flex-column align-items-start">
+            <div id="cpeInfo" class="m-2 text-originalColor d-flex flex-column align-items-start" tabindex="0">
                 <p>Cursinho Popular EACH USP - CPE</p>
                 <div class="d-flex text-originalColor flex-column align-items-start">
                     <p class="m-0 text-footer">Escola de Artes, Ciências e Humanidades - EACH/USP</p>
@@ -11,11 +11,11 @@
                 </div>
             </div>
             <div id="a11yOptions" class="m2 d-flex flex-column align-items-center justify-content-center">
-                <div id="normal" class="d-flex align-items-center"  @click="changeColor(1)">
+                <div id="normal" class="d-flex align-items-center"  @click="changeColor(1)"  @keyup.enter="changeColor(1)" tabindex="0">
                     <div style="background-color: #12385B;" class="colorIcon"/>
                     <p class="m-0 text-originalColor">Cores Originais</p>
                 </div>
-                <div id="colorBlind" class="d-flex align-items-center" @click="changeColor(2)">
+                <div id="colorBlind" class="d-flex align-items-center" @click="changeColor(2)" @keyup.enter="changeColor(2)" tabindex="0">
                     <div style="background-color: #EF7A20;" class="colorIcon"/>
                     <p class="m-0 text-originalColor">Cores Alternativas</p>
                 </div>

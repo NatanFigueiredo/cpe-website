@@ -1,5 +1,5 @@
 <template>
-	<div class="banner">
+	<div class="banner" tabindex="0">
 		
 		<img :src="require(`@/assets/Banners/${imageName}`)" :alt="imageAlt" class="img-fluid" role="banner">
 		<div class="centered">
