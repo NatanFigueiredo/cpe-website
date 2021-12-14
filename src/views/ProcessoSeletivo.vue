@@ -12,18 +12,18 @@
 
 			<div id="psInfo" class="d-flex flex-column align-items-center d-sm-flex flex-sm-row justify-content-sm-center m-2">
 				<img src="@/assets/Icons/selection.png" alt="Icone de uma pessoa sendo escolhida dentre três no total" class="img-fluid icon lg-icon">
-				<div class="w-100 m-0 d-flex flex-column align-items-center text-originalColor">
+				<div class="w-100 m-0 d-flex flex-column align-items-center text-originalColor" tabindex="0">
 					<h3 class="h2 subtitle subtitle-originalColor ">Informações principais</h3>
-					<p class="mt-4">Para ser estudante do Cursinho, é necessario se inscrever e ser aprovado em nosso processo seletivo </p>
+					<p class="mt-4">Para ser estudante do Cursinho, é necessario se inscrever e ser aprovado em nosso processo seletivo. </p>
 					<p class="d-flex flex-column align-items-center">
-						Não se preocupe, ele é bem simples e tem como objetivo priorizar, mas não exclusivamente, determinadas pessoas para que estas tenham acesso a educação de qualidade <br>
+						Não se preocupe, ele é bem simples e tem como objetivo priorizar, mas não exclusivamente, determinadas pessoas para que estas tenham acesso a educação de qualidade. <br>
 						No CPE, damos prioridades para pessoas nas seguintes condições:
-						<ul class="m-2 d-flex flex-column align-items-start">
-							<li>Estudantes de escola pública; 🏫 </li>
-							<li>Família de baixa renda; 👨‍👨‍👧‍👦</li>
-							<li>Moradores da Zona Leste de São Paulo; 🗺️</li>
-							<li>PPI; 👩🏾</li>
-							<li>Pessoas transsexuais, transgêneros ou travestis. 🏳️‍🌈</li>
+						<ul class="m-2 d-flex flex-column align-items-start" tabindex="0">
+							<li>Estudantes de escola pública 🏫;</li>
+							<li>Família de baixa renda 👨‍👨‍👧‍👦;</li>
+							<li>Moradores da Zona Leste de São Paulo 🗺️;</li>
+							<li>PPI 👩🏾;</li>
+							<li>Pessoas transsexuais, transgêneros ou travestis 🏳️‍🌈.</li>
 						</ul>
 					</p>
 				</div>
@@ -64,10 +64,10 @@
 			<div class="divider-azul w-75 mx-auto bgc-originalColor"/>
 
 			<div class="d-flex align-items-center flex-column m-4 container-fluid text-originalColor" tabindex="0">
-				<h3 class="h2 subtitle subtitle-originalColor ">Procesos seletivos anteriores</h3>
+				<h3 class="h2 subtitle subtitle-originalColor ">Processos seletivos anteriores</h3>
 				<p class="mt-2">Veja aqui os editais de processos seletivos anteriores:</p>
 				<div id="processosanteriores" class="w-100 d-flex flex-column d-sm-flex flex-sm-row justify-content-center">
-					<div class="m-2 box">
+					<div class="m-2 box" tabindex="0">
 						<p class="mt-4 h5 hl-originalColor">Turma Extensiva</p>
 						<div class="d-flex flex-column">
 							<Button 
@@ -82,7 +82,7 @@
 							/>
 						</div>
 					</div>
-					<div class="m-2 box">
+					<div class="m-2 box" tabindex="0">
 						<p class="mt-4 h5 hl-originalColor">Turma de Revisão</p>
 						<div class="d-flex flex-column">
 							<Button 
