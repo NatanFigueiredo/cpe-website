@@ -1,9 +1,9 @@
 <template>
 		<header>
-			<nav class="navbar navbar-expand-lg navbar-light bgc-originalColor" role="navigation">
+			<nav class="navbar navbar-expand-lg navbar-light bgc-originalColor" role="navigation" tabindex="0">
 				<div class="container">
 					<a class="navbar-brand" href="/">
-						<img src="../assets/logo-cpe.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+						<img src="../assets/logo-cpe.png" alt="Logo do Cursinho EACH USP" width="30" height="24" class="d-inline-block align-text-top">
 					</a>
 
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,27 +16,27 @@
 								<router-link class="nav-link" to="/"> <p class="text-originalColor">Início</p>  </router-link>
 							</li>
 							<li class="nav-item dropdown">
-								<a class="nav-link " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<a class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" tabindex="0">
 									<p class="dropdown-toggle text-originalColor"> Quem Somos </p>
 								</a> 
 								<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 									<router-link class="dropdown-item" to="/sobre"> 
 										<p class="p-dark">Sobre o CPE</p> 
 									</router-link>
-									<router-link class="dropdown-item" to="/equipe"> 
+									<router-link class="dropdown-item" tabindex="0" to="/equipe"> 
 										<p class="p-dark">Equipe</p> 
 									</router-link>
 								</div>
 							</li>
 							<li class="nav-item dropdown">
-								<a class="nav-link " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<a class="nav-link " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" tabindex="0">
 									<p class="dropdown-toggle text-originalColor"> Aulas </p>
 								</a> 
 								<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-									<router-link class="dropdown-item" to="/aulas"> 
+									<router-link class="dropdown-item" tabindex="0" to="/aulas"> 
 										<p class="p-dark">Aulas e Turmas</p> 
 									</router-link>
-									<router-link class="dropdown-item" to="/processo-seletivo"> 
+									<router-link class="dropdown-item" tabindex="0" to="/processo-seletivo"> 
 										<p class="p-dark">Processo Seletivo de Alunos</p> 
 									</router-link>
 								</div>

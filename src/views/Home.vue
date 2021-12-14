@@ -4,25 +4,25 @@
     <div id="carouselCPE" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="d-block img-fluid w-100" src="@/assets/Slide1.jpg" alt="Primeiro Slide">
+            <img class="d-block img-fluid w-100" src="@/assets/Slide1.jpg" alt="Imagem de estudantes em uma sala de aula">
             <div class="carousel-caption d-none d-md-block">
                 <h5>Somos um cursinho pré univesitário que busca transformar em realidade o sonho de entrar na universidade</h5>
             </div>
           </div>
           <div class="carousel-item">
-            <img class="d-block img-fluid w-100" src="@/assets/Slide3.jpg" alt="Terceiro Slide">
+            <img class="d-block img-fluid w-100" src="@/assets/Slide3.jpg" alt="Imagem do quadro de aulas e horarios do cursinho">
             <div class="carousel-caption d-none d-md-block">
                 <h5>São duas turmas (Vespertino e Noturno) de 60 estudantes cada por ano</h5>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="@/assets/Slide4.jpg" class="d-block img-fluid w-100" alt="">
+            <img src="@/assets/Slide4.jpg" class="d-block img-fluid w-100" alt="Imagem da equipe de professores sorrindo em frente a uma lousa">
             <div class="carousel-caption d-none d-md-block">
                 <h5>Toda nossa equipe de professores e plantonistas é voluntária e dedicada com a causa do CPE</h5>
             </div>
           </div>    
           <div class="carousel-item">
-            <img class="d-block img-fluid w-100" src="@/assets/Slide2.jpg" alt="Segundo Slide">
+            <img class="d-block img-fluid w-100" src="@/assets/Slide2.jpg" alt="Imagem da equipe de voluntários vestindo camisas do cursinho e sorrindo próximo a uma placa escrita 'USP Leste'">
             <div class="carousel-caption d-none d-md-block">
                 <h5>Nossa equipe administrativa é composta por alunos da USP que acreditam na educação popular</h5>
             </div>
@@ -44,15 +44,15 @@
     <div class="divider-azul bgc-originalColor w-100"/>
 
 
-      <div class="p-5">
-        <div class="infoBanner d-flex flex-column justify-content-center align-items-center bgc-originalColor">
-          <img src="@/assets/atena-camisa.png" alt="Figura da mascote do CPE, a coruja Atena" class="img-fluid">
-          <div class="d-flex flex-column">
-            <p class="h1 title title-originalColor text-originalColor sh-originalColor">Olá, este é o site do CPE</p>
-            <p class="h5 subtitle text-originalColor">Ainda estamos ajeitando nossa Home, mas fique a vontade para explorar as outras páginas</p>
-          </div>
+    <div class="p-5" tabindex="0">
+      <div class="infoBanner d-flex flex-column justify-content-center align-items-center bgc-originalColor">
+        <img src="@/assets/atena-camisa.png" alt="Figura da mascote do CPE, a coruja Atena" class="img-fluid">
+        <div class="d-flex flex-column">
+          <p class="h1 title title-originalColor text-originalColor sh-originalColor">Olá, este é o site do CPE</p>
+          <p class="h5 subtitle text-originalColor">Ainda estamos ajeitando nossa Home, mas fique a vontade para explorar as outras páginas</p>
         </div>
       </div>
+    </div>
 
     
 
